@@ -6,7 +6,7 @@
 /*   By: wada-sil <wada-sil@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/13 18:38:01 by wada-sil          #+#    #+#             */
-/*   Updated: 2024/06/13 18:42:14 by wada-sil         ###   ########.fr       */
+/*   Updated: 2024/06/30 18:25:35 by wada-sil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,10 @@
 # define BASE16U "0123456789ABCDEF"
 
 typedef unsigned int	t_unit;
-int						ft_putstr(const char *s, int c, char format);
-int						ft_putall(unsigned long long n, char format,
-							char *base);
-int						ft_printf(const char *format, ...);
-int						ft_check_type(char format, va_list *args);
+int						ft_putstr(const char *s, int c, char fmt);
+int						ft_putnbrbase(unsigned long long n, char *base);
+int						ft_putptr(unsigned long long ptr);
+int						ft_printf(const char *fmt, ...);
+int						ft_check_type(char fmt, va_list *args);
 
 #endif
