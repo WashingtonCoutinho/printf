@@ -6,7 +6,7 @@
 /*   By: wada-sil <wada-sil@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/13 18:37:24 by wada-sil          #+#    #+#             */
-/*   Updated: 2024/06/30 18:26:43 by wada-sil         ###   ########.fr       */
+/*   Updated: 2024/08/31 16:23:12 by wada-sil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,7 +104,10 @@ int	ft_printf(const char *fmt, ...)
 	return (result);
 }
 
-/* int	main(void)
+/* int	main(void)arguments, str);
+	while (str[i])
+	{
+		if (s
 {
 	ft_printf("Testes P: %p\n", -1);
 	ft_printf("Testes P: %p\n", 16);
